@@ -13,7 +13,6 @@
 .headerI {
    
     width: 100%;
-    background-image: linear-gradient(30deg, rgb(0, 0, 0), rgb(56, 0, 187), rgb(4, 0, 255));
 }
 
 nav {
@@ -145,6 +144,7 @@ nav {
     bottom: 10px;
     left: 20px;
     color: white;
+    font-size:10px;
 }
 
 nav .fa {
@@ -169,7 +169,7 @@ nav .fa {
 .infoI {
     position: relative;
     margin: auto;
-    top: 320px;
+    top:320px;
     border-radius: 25px;
     width: 87%;
     padding: 40px;
@@ -187,7 +187,7 @@ nav .fa {
 .interview{
     position: relative;
     margin: auto;
-    top: 410px;
+    top:410px;
     border-radius: 25px;
     width: 87%;
     padding: 40px;
@@ -197,6 +197,17 @@ nav .fa {
     color: white;
     background-image: linear-gradient(270deg, rgb(0, 0, 0), rgb(21, 0, 70));
     
+}
+
+.interviewpage{
+    background-image: linear-gradient(30deg, rgb(0, 0, 0), rgb(56, 0, 187), rgb(4, 0, 255));
+}
+
+.interviewtext{
+    width:80%;
+    margin:auto;
+    text-align: left;
+    padding-top:100px;
 }
 
 @media(max-width: 700px) {
@@ -235,4 +246,32 @@ nav .fa {
         font-size: 20;
         cursor: pointer;
     }
+}
+
+.row{
+    display: flex;
+    padding-top: 600px;
+    padding-left: 10%;
+    align-content: left;
+}
+
+.insta{
+    flex: 0 1 auto;
+    border-radius: 15px;
+    margin-left: 20px;
+    transition: box-shadow .3s;
+}
+
+.github{
+    flex: 0 1 auto;
+    border-radius: 15px;
+    transition: box-shadow .3s;
+}
+
+.insta:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.github:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
